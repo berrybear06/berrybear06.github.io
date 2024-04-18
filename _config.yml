@@ -1,3 +1,6 @@
+title: The Berry Basket
+permalink: pretty
+
 collections:
     projects:
         output: false

@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.title }}</title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?"> <!-- ? is weird hack for .ico !-->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"> <!-- ? is weird hack for .ico !-->
 		<link rel="stylesheet" href="/assets/css/styles.css">
-		<style>
-			body {
-				font-family: Arial, sans-serif;
-				margin: 0;
-				padding: 0;
-				background-color: #f0f0f0;
-				text-align: left;
-				padding-top: 50px;
-			}
-			nav {
-				text-align: center;
-				<!-- background-color: #99001f; !-->
-			}
-			h1 {
-				text-align: center;
-				<!-- color: #ffebeb; !-->
-				<!-- background-color: #99001f; !-->
-			}
-			p {
-				color: #666;
-				padding-left: 20px;
-			}
-		</style>
 	</head>
 	<body>
-		{% include navigation.html %}
-		{{ content }}
+		<div class="wrapper">
+			<header>
+				<h1>
+					<a href="{{ "/" | absolute_url }}">
+						<img src="/favicon.ico?" class="favicon">
+						{{ site.title }}
+					</a>
+				</h1>
+				{% include navigation.html %}
+				<p>{{ page.description | default: "" }}</p>
+				
+			</header>
+		<section>
+			{{ content }}
+		</section>
+		<footer>
+			<p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+		</footer>
+		<script src="/assets/js/scale.fix.js"></script>
 	</body>
 </html>
