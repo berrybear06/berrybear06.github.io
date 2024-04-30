@@ -2,10 +2,11 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 50px;
-	background-color: #f0f0f0;
+	/* background-color: #1f4a22; */
+	background-color: #40160b;
 	text-align: left;
 	padding-top: 50px;
-	color: #727272;
+	color: #faccd0;
 }
 nav {
 	text-align: center;
@@ -14,7 +15,7 @@ nav {
 }
 
 p {
-	color: #666;
+	/* color: #faccd0; */
 	padding-left: 20px;
 	line-height: 24px;
 }
@@ -37,7 +38,7 @@ nav a {
 /* Jekyll Minimal Theme */
 
 h1, h2, h3, h4, h5, h6 {
-	color:#222;
+	color:#f87872;
 	margin:0 0 20px;
 }
 
@@ -57,32 +58,32 @@ h1 {
 }
 
 h2 {
-	color:#393939;
+	/* color:#393939; */
 }
 
 h3, h4, h5, h6 {
-	color:#494949;
+	/* color:#494949; */
 }
 
 a {
-	color:#267CB9;
+	color:#fd3036;
 	text-decoration:none;
 }
 
 a:hover, a:focus {
-	color:#069;
+	color:#ff676b;
 	font-weight: bold;
 }
 
 a small {
 	font-size:11px;
-	color:#777;
+	/* color:#777; */
 	margin-top:-0.3em;
 	display:block;
 }
 
 a:hover small {
-	color:#777;
+	/* color:#777; */
 }
 
 .wrapper {
