@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Berries
-description: My engineering and programming projects!
+description: My engineering and programming projects! Some of the project names are links to more info.
 ---
 
 # Projects

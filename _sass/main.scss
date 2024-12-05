@@ -75,13 +75,6 @@ a:hover, a:focus {
 	font-weight: bold;
 }
 
-a small {
-	font-size:11px;
-	/* color:#777; */
-	margin-top:-0.3em;
-	display:block;
-}
-
 a:hover small {
 	/* color:#777; */
 }
@@ -157,7 +150,8 @@ header {
 }
 
 strong {
-	color:#222;
+	/* color:#222; */
+	color: #ffffff;
 	font-weight:700;
 }
 
